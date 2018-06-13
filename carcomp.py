@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, send_file,render_template, redirect
 import requests
 import matplotlib
-matplotlib.use('Agg')##<pkka likhna
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import pandas as pd
